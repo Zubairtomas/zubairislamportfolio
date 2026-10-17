@@ -3,327 +3,301 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portfolio of Md. Zubair Islam, Key Account Manager, Business Analyst and Product Manager.">
-  <title>Md. Zubair Islam | Portfolio</title>
-
-  <!-- Bootstrap 5 CSS -->
+  <meta name="description" content="Portfolio of Md. Zubair Islam, Key Account Manager, Business Analyst and Product Manager based in Dhaka.">
+  <title>Md. Zubair Islam | Key Account Manager &amp; Product Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== NAVBAR ===== -->
-  <nav class="navbar navbar-expand-lg fixed-top portfolio-nav">
-    <div class="container">
-      <a class="navbar-brand fw-bold" href="#home">Zubair<span>.</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<nav class="navbar navbar-expand-lg fixed-top site-nav" id="nav">
+  <div class="container">
+    <div class="nav-pill">
+      <a class="navbar-brand d-lg-none" href="#home">Zubair<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="bi bi-list fs-2"></i></button>
       <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
           <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+          <li class="nav-item"><a class="btn btn-hire" href="#contact">Contact me</a></li>
         </ul>
       </div>
     </div>
-  </nav>
+  </div>
+</nav>
 
-  <!-- ===== HERO ===== -->
-  <header id="home" class="hero d-flex align-items-center">
-    <div class="container">
-      <div class="row align-items-center g-4">
-        <div class="col-lg-7 order-2 order-lg-1">
-          <p class="eyebrow mb-2">Hello, I'm</p>
-          <h1 class="display-4 fw-bold mb-2">Md. Zubair Islam</h1>
-          <h2 class="h4 text-muted fst-italic mb-4">Key Account Manager | Business Analyst | Product Manager</h2>
-          <p class="lead mb-4">
-            I bridge client needs, business requirements, and technical teams to deliver software, ERP,
-            website, and digital products. 4+ years of experience across the full project lifecycle.
-          </p>
-          <a href="#projects" class="btn btn-brand btn-lg me-2 mb-2">View My Work</a>
-          <a href="#contact" class="btn btn-outline-brand btn-lg mb-2">Get in Touch</a>
+<header id="home" class="hero d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-7 order-2 order-lg-1">
+        <div class="status"><i></i> Open to new opportunities</div>
+        <h1>Md. Zubair Islam</h1>
+        <p class="role">Key Account Manager · Business Analyst · Product Manager</p>
+        <p class="intro">I turn client needs into clear requirements and shipped products, from ERP systems to MVPs, websites and brands, working across design, development and content teams.</p>
+        <div class="mb-4">
+          <a href="#projects" class="btn btn-gold me-2 mb-2">View my work</a>
+          <a href="#contact" class="btn btn-ghost mb-2">Get in touch</a>
         </div>
-        <div class="col-lg-5 order-1 order-lg-2 text-center">
-          <!-- Replace assets/photo.jpg with your own photo -->
-          <img src="assets/photo.jpg" alt="Md. Zubair Islam" class="profile-photo img-fluid">
+        <div class="hero-socials">
+          <a href="https://www.linkedin.com/in/zubair-islam-75a8b7199" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="mailto:zubairislam191994@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+          <a href="tel:+8801303285469" aria-label="Phone"><i class="bi bi-telephone-fill"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2">
+        <div class="photo-frame">
+          <img src="assets/photo.jpg" alt="Md. Zubair Islam">
+          <div class="float-badge"><i class="bi bi-briefcase-fill"></i><div><strong>4+ years</strong>Client &amp; product delivery</div></div>
         </div>
       </div>
     </div>
-  </header>
+  </div>
+</header>
 
-  <!-- ===== ABOUT ===== -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2 class="section-title">About Me</h2>
-      <div class="row g-4">
-        <div class="col-lg-8">
-          <p>
-            I am a client-focused Account and Product Management professional with experience across software,
-            ERP, website, UI/UX, branding, and digital products. I manage client accounts, translate business
-            needs into product requirements, prepare PRDs and SOWs, plan MVP features, and define user flows.
-          </p>
-          <p>
-            I coordinate cross-functional teams (design, development, content, and SEO) throughout product
-            development and delivery, while maintaining strong client relationships and identifying
-            opportunities for account growth.
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <div class="row text-center g-3">
-            <div class="col-6">
-              <div class="stat-card">
-                <div class="stat-number">4+</div>
-                <div class="stat-label">Years Experience</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="stat-card">
-                <div class="stat-number">20+</div>
-                <div class="stat-label">Client Accounts</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="stat-card">
-                <div class="stat-number">25+</div>
-                <div class="stat-label">Projects Delivered</div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="stat-card">
-                <div class="stat-number">Dhaka</div>
-                <div class="stat-label">Based In</div>
-              </div>
-            </div>
-          </div>
+<div class="stats-bar">
+  <div class="container">
+    <div class="stats-inner row g-3">
+      <div class="col-6 col-md-3 stat"><b>4+</b><span>Years of experience</span></div>
+      <div class="col-6 col-md-3 stat"><b>20+</b><span>Client accounts managed</span></div>
+      <div class="col-6 col-md-3 stat"><b>25+</b><span>Projects delivered</span></div>
+      <div class="col-6 col-md-3 stat"><b>3</b><span>Companies, one growing career</span></div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-6">
+        <div class="section-head"><h2>About me</h2></div>
+        <div class="about-text">
+          <p>I'm a client-focused account and product management professional based in Dhaka. I work across software, ERP, websites, UI/UX, branding and digital products.</p>
+          <p>My strength is bridging the gap between what a client needs and what a team can build: gathering requirements, writing PRDs and SOWs, planning MVP features, defining user flows, and keeping delivery on scope, on time and on budget.</p>
         </div>
       </div>
+      <div class="col-lg-6">
+        <ul class="focus-list">
+          <li><i class="bi bi-people-fill"></i><div><strong>Key account management</strong><span>Primary contact for strategic accounts, upselling and growth opportunities.</span></div></li>
+          <li><i class="bi bi-clipboard2-data-fill"></i><div><strong>Business analysis</strong><span>Requirements gathering, BRD, SRS, SOW and project documentation.</span></div></li>
+          <li><i class="bi bi-rocket-takeoff-fill"></i><div><strong>Product management</strong><span>MVP planning, user flows and cross-functional delivery.</span></div></li>
+        </ul>
+      </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== EXPERIENCE ===== -->
-  <section id="experience" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Experience</h2>
+<section id="experience" class="section section-paper">
+  <div class="container">
+    <div class="section-head"><h2>Experience</h2><p>Where I've worked and what I've owned.</p></div>
 
-      <div class="timeline-item">
-        <div class="d-flex flex-wrap justify-content-between align-items-baseline">
-          <h3 class="h5 mb-1">Sr. Account Executive <span class="company">@ Mars &amp; Co.</span></h3>
-          <span class="date-badge">Jan 2025 – Present</span>
-        </div>
-        <p class="text-muted small mb-2">Gulshan 01, Dhaka</p>
+    <div class="tl-item">
+      <div class="tl-date">Sep 2025 – Present<small>Gulshan, Dhaka</small></div>
+      <div class="tl-body">
+        <h3>Sr. Account Executive</h3><div class="co">Mars &amp; Co.</div>
         <ul>
           <li>Primary point of contact for strategic client accounts and project stakeholders.</li>
-          <li>Prepare PRDs, BRDs, SRSs, SOWs, MVP feature plans, and supporting documentation.</li>
-          <li>Coordinate design, development, content, and SEO teams to align requirements with deliverables.</li>
-          <li>Manage project scope, timelines, budgets, client communication, and delivery coordination.</li>
-          <li>Support proposals, client presentations, and identify upselling opportunities.</li>
+          <li>Prepare PRDs, BRDs, SRSs, SOWs and MVP feature plans from client requirements.</li>
+          <li>Coordinate design, development, content, SEO and creative teams around deliverables.</li>
+          <li>Manage scope, timelines, budgets and client communication; support proposals and upsell opportunities.</li>
         </ul>
       </div>
+    </div>
 
-      <div class="timeline-item">
-        <div class="d-flex flex-wrap justify-content-between align-items-baseline">
-          <h3 class="h5 mb-1">Client Account Executive <span class="company">@ Ontik Technology Ltd</span></h3>
-          <span class="date-badge">Sep 2022 – Aug 2025</span>
-        </div>
-        <p class="text-muted small mb-2">Gulshan 01, Dhaka</p>
+    <div class="tl-item">
+      <div class="tl-date">Sep 2022 – Aug 2025<small>Gulshan, Dhaka</small></div>
+      <div class="tl-body">
+        <h3>Client Account Executive</h3><div class="co">Ontik Technology Ltd</div>
         <ul>
-          <li>Managed MVP software development, ERP, and website projects across multiple client accounts.</li>
-          <li>Conducted requirements gathering, analysis, and business analysis to understand client needs.</li>
-          <li>Prepared SOWs, SRSs, BRDs, project timelines, and project documentation.</li>
-          <li>Supported Agile project execution and coordinated activities across teams.</li>
-          <li>Managed client communication, project updates, and requirement changes.</li>
+          <li>Managed MVP software, ERP and website projects across multiple client accounts.</li>
+          <li>Ran requirements gathering and business analysis; defined scope, deliverables and timelines.</li>
+          <li>Prepared SOWs, SRSs, BRDs and project documentation; supported Agile delivery.</li>
+          <li>Handled client updates, requirement changes and account growth.</li>
         </ul>
       </div>
+    </div>
 
-      <div class="timeline-item">
-        <div class="d-flex flex-wrap justify-content-between align-items-baseline">
-          <h3 class="h5 mb-1">Jr. System Analyst <span class="company">@ Progeny Technologies Ltd</span></h3>
-          <span class="date-badge">Mar 2022 – Aug 2022</span>
-        </div>
-        <p class="text-muted small mb-2">Baridhara DOHS, Dhaka</p>
+    <div class="tl-item">
+      <div class="tl-date">Mar 2022 – Aug 2022<small>Baridhara DOHS, Dhaka</small></div>
+      <div class="tl-body">
+        <h3>Jr. System Analyst</h3><div class="co">Progeny Technologies Ltd</div>
         <ul>
           <li>Coordinated ERP implementation projects.</li>
-          <li>Provided ERP application support and training.</li>
-          <li>Assisted with testing, implementation, and deployment.</li>
+          <li>Provided ERP application support and user training.</li>
+          <li>Assisted with testing, implementation and deployment.</li>
         </ul>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== SKILLS ===== -->
-  <section id="skills" class="section">
-    <div class="container">
-      <h2 class="section-title">Skills</h2>
-      <div class="row g-4">
-        <div class="col-md-6 col-lg-3">
-          <div class="skill-card h-100">
-            <h3 class="h6">Product &amp; Software</h3>
-            <div class="tags">
-              <span>MVP Planning</span><span>PRD</span><span>User Flow</span><span>SRS</span>
-              <span>BRD</span><span>Information Architecture</span><span>ERP Systems</span>
-            </div>
-          </div>
+<section id="skills" class="section skills on-dark">
+  <div class="container">
+    <div class="section-head"><h2>Skills &amp; tools</h2><p>What I use to plan, design and deliver products.</p></div>
+    <div class="row g-4">
+
+      <div class="col-lg-6"><div class="skill-group">
+        <div class="skill-group-head"><span class="ico"><i class="bi bi-box-seam"></i></span><h3>Product &amp; software</h3></div>
+        <div class="skill-grid">
+          <div class="skill"><i class="bi bi-bullseye"></i>MVP planning</div>
+          <div class="skill"><i class="bi bi-file-earmark-text"></i>PRD creation</div>
+          <div class="skill"><i class="bi bi-signpost-split"></i>User flow</div>
+          <div class="skill"><i class="bi bi-file-earmark-ruled"></i>SRS</div>
+          <div class="skill"><i class="bi bi-file-earmark-bar-graph"></i>BRD</div>
+          <div class="skill"><i class="bi bi-diagram-2"></i>Info architecture</div>
+          <div class="skill"><i class="bi bi-boxes"></i>ERP systems</div>
+          <div class="skill"><i class="bi bi-headset"></i>Application support</div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="skill-card h-100">
-            <h3 class="h6">Web &amp; Data</h3>
-            <div class="tags">
-              <span>HTML</span><span>CSS</span><span>Bootstrap</span><span>jQuery</span>
-              <span>WordPress</span><span>SQL</span><span>PostgreSQL</span>
-            </div>
-          </div>
+      </div></div>
+
+      <div class="col-lg-6"><div class="skill-group">
+        <div class="skill-group-head"><span class="ico"><i class="bi bi-code-slash"></i></span><h3>Web &amp; data</h3></div>
+        <div class="skill-grid">
+          <div class="skill"><i class="bi bi-filetype-html"></i>HTML</div>
+          <div class="skill"><i class="bi bi-filetype-css"></i>CSS</div>
+          <div class="skill"><i class="bi bi-bootstrap"></i>Bootstrap</div>
+          <div class="skill"><i class="bi bi-braces"></i>jQuery</div>
+          <div class="skill"><i class="bi bi-wordpress"></i>WordPress</div>
+          <div class="skill"><i class="bi bi-database"></i>SQL</div>
+          <div class="skill"><i class="bi bi-database-gear"></i>PostgreSQL</div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="skill-card h-100">
-            <h3 class="h6">Design &amp; Tools</h3>
-            <div class="tags">
-              <span>Figma</span><span>Canva</span><span>Lucidchart</span>
-              <span>Jira</span><span>ClickUp</span><span>Atlassian</span>
-            </div>
-          </div>
+      </div></div>
+
+      <div class="col-lg-6"><div class="skill-group">
+        <div class="skill-group-head"><span class="ico"><i class="bi bi-palette"></i></span><h3>Design &amp; project tools</h3></div>
+        <div class="skill-grid">
+          <div class="skill"><i class="bi bi-figma"></i>Figma</div>
+          <div class="skill"><i class="bi bi-brush"></i>Canva</div>
+          <div class="skill"><i class="bi bi-diagram-3"></i>Lucidchart</div>
+          <div class="skill"><i class="bi bi-kanban"></i>Jira</div>
+          <div class="skill"><i class="bi bi-check2-square"></i>ClickUp</div>
+          <div class="skill"><i class="bi bi-layers"></i>Atlas</div>
         </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="skill-card h-100">
-            <h3 class="h6">Operations</h3>
-            <div class="tags">
-              <span>Requirements Analysis</span><span>Project Planning</span><span>WBS</span>
-              <span>SOW Documentation</span><span>Client Relationship Mgmt</span><span>Upsell Planning</span>
-            </div>
-          </div>
+      </div></div>
+
+      <div class="col-lg-6"><div class="skill-group">
+        <div class="skill-group-head"><span class="ico"><i class="bi bi-kanban-fill"></i></span><h3>Operations &amp; delivery</h3></div>
+        <div class="skill-grid">
+          <div class="skill"><i class="bi bi-search"></i>Requirements analysis</div>
+          <div class="skill"><i class="bi bi-calendar-check"></i>Project planning</div>
+          <div class="skill"><i class="bi bi-list-nested"></i>WBS</div>
+          <div class="skill"><i class="bi bi-file-earmark-check"></i>SOW documentation</div>
+          <div class="skill"><i class="bi bi-clock-history"></i>Timeline management</div>
+          <div class="skill"><i class="bi bi-people"></i>Client relations</div>
+          <div class="skill"><i class="bi bi-diagram-3-fill"></i>Cross-team coordination</div>
+          <div class="skill"><i class="bi bi-graph-up-arrow"></i>Upsell planning</div>
         </div>
+      </div></div>
+
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-head"><h2>Selected projects</h2><p>The problem, the solution and what changed.</p></div>
+    <div class="row g-4">
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-buildings"></i></span><span class="proj-tag">ERP</span></div>
+        <h3>Emkay Enterprises Limited</h3>
+        <dl><dt>Problem</dt><dd>Manual processes limited visibility into presales, sales, project costs, inventory, payments and employee activity.</dd>
+        <dt>Solution</dt><dd>Integrated CRM and project modules with dashboards, costing, inventory, payment and expense tracking.</dd></dl>
+        <div class="result"><i class="bi bi-graph-up-arrow"></i><span>Estimated 40% better presales tracking and 50% better operational visibility.</span></div>
+      </article></div>
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-airplane"></i></span><span class="proj-tag">OTA &amp; ERP</span></div>
+        <h3>Aerolex Aviation Ltd.</h3>
+        <dl><dt>Problem</dt><dd>Bookings, inventory, vendor contracts and invoicing spanned complex multi-region workflows.</dd>
+        <dt>Solution</dt><dd>A unified B2B travel portal with real-time availability, reservation automation, billing and invoicing.</dd></dl>
+        <div class="result"><i class="bi bi-graph-up-arrow"></i><span>25% higher efficiency, about 20% fewer overbookings, 15% less idle inventory.</span></div>
+      </article></div>
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-geo-alt"></i></span><span class="proj-tag">MVP</span></div>
+        <h3>Rear Window</h3>
+        <dl><dt>Problem</dt><dd>Home buyers and renters struggled to find and interpret reliable crime and neighborhood safety data.</dd>
+        <dt>Solution</dt><dd>Defined an MVP with address search, crime analysis, interactive maps and structured risk reports.</dd></dl>
+        <div class="result"><i class="bi bi-check-circle"></i><span>Property research centralized into one clear, purchasable report.</span></div>
+      </article></div>
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-translate"></i></span><span class="proj-tag">LMS</span></div>
+        <h3>BanglaShikhi</h3>
+        <dl><dt>Problem</dt><dd>Online Bengali learning needed a structured way to organize courses, lessons, tutors and progress.</dd>
+        <dt>Solution</dt><dd>An LMS with course access, online classes, lesson scheduling and progress tracking.</dd></dl>
+        <div class="result"><i class="bi bi-check-circle"></i><span>Clearer student progress and better learner–tutor coordination.</span></div>
+      </article></div>
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-mortarboard"></i></span><span class="proj-tag">EdTech</span></div>
+        <h3>Learning Management System</h3>
+        <dl><dt>Problem</dt><dd>Learners wanted flexible purchasing, multiple formats, assessments and certificates in one place.</dd>
+        <dt>Solution</dt><dd>Single courses and bundles, live and recorded classes, online quizzes and certificates.</dd></dl>
+        <div class="result"><i class="bi bi-check-circle"></i><span>One centralized flow from course purchase to certification.</span></div>
+      </article></div>
+
+      <div class="col-md-6 col-lg-4"><article class="proj">
+        <div class="proj-top"><span class="proj-ico"><i class="bi bi-collection"></i></span><span class="proj-tag">More work</span></div>
+        <h3>Other clients</h3>
+        <p class="small text-muted mb-2">ERP &amp; commerce</p>
+        <div class="client-chips"><span>Good Bags</span><span>Astha Feeds</span><span>Root Food</span><span>Mahima Foods</span><span>Tamim Agro</span><span>Zuqo Footwear</span><span>Advanced Agro</span><span>GSI</span></div>
+        <p class="small text-muted mb-2">Software &amp; web</p>
+        <div class="client-chips"><span>DzyneMe</span><span>Pear App</span><span>Brainwire</span><span>UNB</span><span>News Flash 71</span><span>Tripzik</span><span>Magic Bricks</span><span>Bengal Airlift</span></div>
+        <p class="small text-muted mb-2">Branding</p>
+        <div class="client-chips"><span>Dhali's Amber Nivaas</span><span>AgroSAL</span><span>Kinora</span><span>Celesta</span><span>Lazy Chat</span></div>
+      </article></div>
+
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section section-paper">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <div class="section-head"><h2>Education</h2></div>
+        <div class="edu"><i class="bi bi-mortarboard-fill"></i><div><h3>B.Sc. in Computer Science &amp; Engineering</h3><p>Varendra University, 2020 · GPA 3.69</p></div></div>
+        <div class="edu"><i class="bi bi-book-fill"></i><div><h3>H.S.C.</h3><p>New Govt. Degree College, 2013 · GPA 4.50</p></div></div>
+        <div class="edu"><i class="bi bi-book"></i><div><h3>S.S.C.</h3><p>Puthia P N High School, 2011 · GPA 5.00</p></div></div>
+      </div>
+      <div class="col-lg-5">
+        <div class="section-head"><h2>Languages</h2></div>
+        <div class="edu"><i class="bi bi-chat-quote-fill"></i><div><h3>Bangla</h3><p>Native speaker, skilled technical writer</p></div></div>
+        <div class="edu"><i class="bi bi-globe2"></i><div><h3>English</h3><p>Good spoken and written skills</p></div></div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== PROJECTS ===== -->
-  <section id="projects" class="section section-alt">
-    <div class="container">
-      <h2 class="section-title">Selected Projects</h2>
-      <div class="row g-4">
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">ERP</span>
-            <h3 class="h5">Emkay Enterprises Limited</h3>
-            <p><strong>Problem:</strong> Manual processes limited visibility into presales, sales, project costs, inventory, payments, and employee activity.</p>
-            <p><strong>Solution:</strong> Integrated CRM and project management modules with dashboards, costing, inventory, and payment tracking.</p>
-            <p class="outcome"><strong>Outcome:</strong> Estimated 40% improvement in presales tracking and 50% in operational visibility.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">LMS</span>
-            <h3 class="h5">BanglaShikhi</h3>
-            <p><strong>Problem:</strong> Online Bengali learning needed a structured platform for courses, lessons, tutors, and progress.</p>
-            <p><strong>Solution:</strong> LMS with course access, online classes, lesson scheduling, and progress tracking.</p>
-            <p class="outcome"><strong>Outcome:</strong> Centralized learning resources and clearer coordination between learners and tutors.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">OTA &amp; ERP</span>
-            <h3 class="h5">Aerolex Aviation Ltd.</h3>
-            <p><strong>Problem:</strong> Flight and hotel bookings, inventory, vendor contracts, and billing involved complex multi-region workflows.</p>
-            <p><strong>Solution:</strong> Unified B2B travel portal with real-time availability, reservation automation, and invoicing.</p>
-            <p class="outcome"><strong>Outcome:</strong> 25% gain in operational efficiency and about 20% fewer overbooking incidents.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">EdTech</span>
-            <h3 class="h5">Learning Management System</h3>
-            <p><strong>Problem:</strong> Learners needed flexible purchasing, multiple formats, assessments, and certification in one place.</p>
-            <p><strong>Solution:</strong> LMS with individual and bundled courses, live and recorded classes, quizzes, and certificates.</p>
-            <p class="outcome"><strong>Outcome:</strong> A more centralized course delivery and completion process.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">MVP</span>
-            <h3 class="h5">Rear Window: Property Intelligence</h3>
-            <p><strong>Problem:</strong> Buyers and renters struggled to access and interpret reliable crime and neighborhood safety data.</p>
-            <p><strong>Solution:</strong> Defined an MVP with address search, crime data analysis, interactive maps, and risk reports.</p>
-            <p class="outcome"><strong>Outcome:</strong> Centralized property research to support more informed decisions.</p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-4">
-          <div class="project-card h-100">
-            <span class="project-tag">More Work</span>
-            <h3 class="h5">Other Notable Clients</h3>
-            <p><strong>ERP &amp; Commerce:</strong> Good Bags Accessories, Astha Feeds, Root Food, Mahima Foods, Tamim Agro, Zuqo Footwear, GSI.</p>
-            <p><strong>Software:</strong> DzyneMe, Pear App, Brainwire.</p>
-            <p><strong>Websites &amp; Branding:</strong> UNB, News Flash 71, Tripzik, Magic Bricks, Bengal Airlift, Dhali's Amber Nivaas, Celesta.</p>
-          </div>
-        </div>
-
-      </div>
+<section id="contact" class="section contact">
+  <div class="container">
+    <h2>Let's build something together</h2>
+    <p>Have a project to scope, an ERP to plan or a product to shape? Send me a message.</p>
+    <a href="mailto:zubairislam191994@gmail.com" class="btn btn-gold me-2 mb-3"><i class="bi bi-envelope me-2"></i>Email me</a>
+    <a href="https://www.linkedin.com/in/zubair-islam-75a8b7199" target="_blank" rel="noopener" class="btn btn-ghost mb-3"><i class="bi bi-linkedin me-2"></i>LinkedIn</a>
+    <div class="contact-links mt-3">
+      <a href="tel:+8801303285469"><i class="bi bi-telephone"></i>01303285469</a>
+      <a href="#home"><i class="bi bi-geo-alt"></i>Dhaka, Bangladesh</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===== EDUCATION & LANGUAGES ===== -->
-  <section id="education" class="section">
-    <div class="container">
-      <div class="row g-5">
-        <div class="col-lg-7">
-          <h2 class="section-title">Education</h2>
-          <div class="edu-item">
-            <h3 class="h6 mb-1">B.Sc. in Computer Science &amp; Engineering</h3>
-            <p class="text-muted mb-0">Varendra University, 2020 &middot; GPA 3.69</p>
-          </div>
-          <div class="edu-item">
-            <h3 class="h6 mb-1">Higher Secondary Certificate (H.S.C.)</h3>
-            <p class="text-muted mb-0">New Government Degree College, 2013 &middot; GPA 4.50</p>
-          </div>
-          <div class="edu-item">
-            <h3 class="h6 mb-1">Secondary School Certificate (S.S.C.)</h3>
-            <p class="text-muted mb-0">Puthia P N High School, 2011 &middot; GPA 5.00</p>
-          </div>
-        </div>
-        <div class="col-lg-5">
-          <h2 class="section-title">Languages</h2>
-          <div class="edu-item">
-            <h3 class="h6 mb-1">Bangla</h3>
-            <p class="text-muted mb-0">Native speaker, skilled technical writer</p>
-          </div>
-          <div class="edu-item">
-            <h3 class="h6 mb-1">English</h3>
-            <p class="text-muted mb-0">Good spoken and written skills</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<footer class="footer"><div class="container">&copy; <span id="year"></span> Md. Zubair Islam. All rights reserved.</div></footer>
 
-  <!-- ===== CONTACT ===== -->
-  <section id="contact" class="section section-alt">
-    <div class="container text-center">
-      <h2 class="section-title d-inline-block">Let's Work Together</h2>
-      <p class="lead mx-auto mt-3 mb-4" style="max-width: 600px;">
-        Have a project, an ERP to plan, or a product to shape? I'd love to hear from you.
-      </p>
-      <a href="mailto:zubairislam191994@gmail.com" class="btn btn-brand btn-lg me-2 mb-2">Email Me</a>
-      <a href="https://www.linkedin.com/in/zubair-islam-75a8b7199" target="_blank" rel="noopener" class="btn btn-outline-brand btn-lg mb-2">LinkedIn</a>
-    </div>
-  </section>
-
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer text-center py-4">
-    <p class="mb-0">&copy; <span id="year"></span> Md. Zubair Islam. Built with HTML, CSS &amp; Bootstrap.</p>
-  </footer>
-
-  <!-- Bootstrap 5 JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 40);
+  onScroll(); window.addEventListener('scroll', onScroll, { passive: true });
+</script>
 </body>
 </html>
