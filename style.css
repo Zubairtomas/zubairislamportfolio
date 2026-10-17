@@ -1,0 +1,296 @@
+/* ===== Theme variables ===== */
+:root {
+  --brand: #5f7f68;
+  --brand-dark: #4a6552;
+  --brand-light: #e6f0e8;
+  --text: #2d3630;
+  --muted: #6b766f;
+  --surface: #ffffff;
+  --surface-alt: #f4f8f5;
+}
+
+/* ===== Base ===== */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text);
+  background: var(--surface);
+  line-height: 1.6;
+}
+
+section {
+  scroll-margin-top: 70px;
+}
+
+.section {
+  padding: 5rem 0;
+}
+
+.section-alt {
+  background: var(--surface-alt);
+}
+
+.section-title {
+  font-weight: 700;
+  color: var(--brand-dark);
+  margin-bottom: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid var(--brand);
+  display: inline-block;
+}
+
+/* ===== Navbar ===== */
+.portfolio-nav {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.portfolio-nav .navbar-brand {
+  color: var(--brand-dark);
+  font-size: 1.5rem;
+}
+
+.portfolio-nav .navbar-brand span {
+  color: var(--brand);
+}
+
+.portfolio-nav .nav-link {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.portfolio-nav .nav-link:hover {
+  color: var(--brand);
+}
+
+/* ===== Hero ===== */
+.hero {
+  min-height: 100vh;
+  padding-top: 80px;
+  background: linear-gradient(135deg, var(--brand-light) 0%, #ffffff 70%);
+}
+
+.eyebrow {
+  color: var(--brand);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.hero h1 {
+  color: var(--brand-dark);
+}
+
+.profile-photo {
+  max-width: 320px;
+  width: 100%;
+  border-radius: 50%;
+  border: 6px solid #ffffff;
+  box-shadow: 0 10px 30px rgba(74, 101, 82, 0.2);
+  object-fit: cover;
+  aspect-ratio: 1 / 1;
+}
+
+/* ===== Buttons ===== */
+.btn-brand {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+}
+
+.btn-brand:hover,
+.btn-brand:focus {
+  background: var(--brand-dark);
+  border-color: var(--brand-dark);
+  color: #ffffff;
+}
+
+.btn-outline-brand {
+  color: var(--brand-dark);
+  border-color: var(--brand);
+}
+
+.btn-outline-brand:hover {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #ffffff;
+}
+
+/* ===== About stats ===== */
+.stat-card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  height: 100%;
+}
+
+.stat-number {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--brand);
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ===== Experience timeline ===== */
+.timeline-item {
+  border-left: 3px solid var(--brand);
+  padding: 0 0 2rem 1.5rem;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: var(--brand);
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-item h3 .company {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.date-badge {
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.timeline-item ul {
+  padding-left: 1.2rem;
+  margin-bottom: 0;
+}
+
+.timeline-item li {
+  margin-bottom: 0.35rem;
+}
+
+/* ===== Skills ===== */
+.skill-card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.skill-card h3 {
+  color: var(--brand-dark);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.tags span {
+  display: inline-block;
+  background: var(--brand-light);
+  color: var(--brand-dark);
+  font-size: 0.82rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  margin: 0 0.3rem 0.4rem 0;
+}
+
+/* ===== Projects ===== */
+.project-card {
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 1.75rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-top: 4px solid var(--brand);
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: var(--brand-dark);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0.6rem;
+}
+
+.project-tag {
+  display: inline-block;
+  background: var(--brand);
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-card .outcome {
+  color: var(--brand-dark);
+  background: var(--brand-light);
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+}
+
+/* ===== Education & Languages ===== */
+.edu-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e3e9e5;
+}
+
+.edu-item:last-child {
+  border-bottom: none;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: var(--brand-dark);
+  color: #e6f0e8;
+  font-size: 0.95rem;
+}
+
+/* ===== Responsive tweaks ===== */
+@media (max-width: 991px) {
+  .hero {
+    min-height: auto;
+    padding: 6rem 0 4rem;
+  }
+
+  .section {
+    padding: 3.5rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .display-4 {
+    font-size: 2.2rem;
+  }
+
+  .profile-photo {
+    max-width: 240px;
+  }
+}
